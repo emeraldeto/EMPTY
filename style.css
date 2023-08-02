@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: #01019a;
+   font: sans-serif;
+   background-image: url(./image/cool-nature-Tropical-Island-Wallpaper-scaled.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background: #ffffff;
+    color: #01019a;
+    align-items: center;
+    padding: 10px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    animation-name: got;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: 3s;
+    animation-direction: linear;
+}
+
+@keyframes got {
+    0%{top: -1000px;}
+    100%{top: 0px;}
+    
+}
+
+.navbar a{
+    color: #01019a;
+    text-decoration: none;
+
+}
+
+.navbar a:hover{
+    color: #01019a;
+    transition: all .3s ease-in-out;
+    background:transparent;
+    border: 1px solid #01019a;
+    border-radius: 5px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    animation-name: gott;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: 3s;
+    animation-direction: linear;
+}
+
+@keyframes gott {
+    0%{top: -1000px;}
+    100%{top: 0px;}
+    
+}
+
+
+
+.container2{
+    text-align: center;
+    margin-top: 30px;
+    color: #726c6c;
+}
+
+.container2 p{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: black;
+    position: relative;
+    animation-name: saat;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: 4s;
+    animation-direction:linear;
+}
+
+@keyframes saat {
+    0%  {left: -1000px;}
+    100%{left: 0px;}
+    
+}
+
+h2{
+    color:#fff;
+    text-shadow: black;
+    font-size: 30px;
+    position: relative;
+    animation-name: aat;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: 4s;
+    animation-direction:ease-in;
+
+}
+
+@keyframes aat {
+    0%{right: -1000px;}
+    100%{right: 0px;}
+    
+}
+
+
+
+.container2 button{
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    background:white;
+    color: #01019a;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 30px;
+    box-shadow:0 0 12px black;
+    font-family:sans-serif;
+    opacity: 0;
+    position: relative;
+    animation-name: cat;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: 4s;
+    animation-direction:ease-in;
+
+}
+
+@keyframes cat {
+    0%{opacity:0;}
+    100%{opacity: 1;}
+    
+}
+
+
+.container2 button:hover{
+    color: #faf8f8;
+    width: 260px;
+    box-shadow: 0 0 12px rgb(84, 85, 29);
+    transition: all .3s linear;
+    background-color: transparent;
+}
+
+.container2 a{
+    text-decoration: none;
+}
+
+.lister{
+    background-color: transparent;
+    border: none;
+    color: #01019ae;
+}
+
+.lister option{
+    color: #01019a;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#e927f0;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+}
+
+.image{
+    margin-top: 20px;
+    position: relative;
+    animation-name: saat;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: 4s;
+    animation-direction:linear;
+    
+}
+
+@keyframes saat {
+    0%  {left: -1000px;}
+    100%{left: 0px;}
+    
+}
+
+
+.image h3{
+    color: white;
+}
+
+.image h4{
+    color: white;
+    font-family: cursive;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.mage img{
+    border-radius: 19px;
+    box-shadow: 2px 2px 5px white;
+}
+
+.mage img:hover{
+    box-shadow: 3px 4px 10px black;
+}
+
+.image video{
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.image p{
+    font-size: 30px;
+
+}

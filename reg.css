@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+body{
+    background: #01019a;
+    font: sans-serif;
+    background-image: url(./image/cool-nature-Tropical-Island-Wallpaper-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ 
+ .container{
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+     background: #ffffff;
+     color: #01019a;
+     align-items: center;
+     padding: 10px 30px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     position: relative;
+     animation-name: got;
+     animation-duration: 1s;
+     animation-fill-mode: forwards;
+     animation-timing-function: 3s;
+     animation-direction: linear;
+ }
+ 
+ @keyframes got {
+     0%{top: -1000px;}
+     100%{top: 0px;}
+     
+ }
+ 
+ .navbar a{
+     color: #01019a;
+     text-decoration: none;
+ 
+ }
+ 
+ .navbar a:hover{
+     color: #01019a;
+     transition: all .3s ease-in-out;
+     background:transparent;
+     border: 1px solid #01019a;
+     border-radius: 5px;
+ }
+ 
+ .navbar li{
+     list-style: none;
+ }
+ 
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+     justify-content: center;
+     position: relative;
+     animation-name: gott;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+     animation-timing-function: 3s;
+     animation-direction: linear;
+ }
+ 
+ @keyframes gott {
+     0%{top: -1000px;}
+     100%{top: 0px;}
+     
+ }
+
+ .lister option{
+    color: #01019a;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:white;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+}
+
+.lister{
+    background-color: transparent;
+    border: none;
+    color: #01019a;
+}
+ 
+ 
+.form{
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    background: #ffffff;
+    width: 40%;
+    height: 50vh;
+    margin-left: 330px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px skyblue;
+    opacity: 0;
+    animation-name: reg;
+    animation-duration: 6s;
+    animation-timing-function: 4s;
+    animation-direction: linear;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes reg {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+
+.form label{
+    margin: 10px 5px;
+}
+
+.form input{
+    margin: 2px 3px;
+}
+
+.form button{
+    margin-top: 5px;
+    background: skyblue;
+    color: white;
+    border-radius: 7px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.form a{
+    text-decoration: none;
+    color: black;
+}
+
+.cop{
+    width: 450px;
+    height: 180px;
+    background: white;
+    position:absolute;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px skyblue;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    align-items: center;
+    color: blue;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    
+}
+
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.cop button{
+    width: 200px;
+    margin-top: 30px;
+    background: skyblue;
+    border-radius: 9px;
+}
+
+.cop a{
+    text-decoration: none;
+    color: #ffffff;
+}

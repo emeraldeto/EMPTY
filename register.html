@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Cosmos Hopital</h1>
+        <ul class="navbar">
+            <select class="lister">
+                <option><a href="#">Home</a></option>
+                <option>
+                    <a href="#">Admin</a>
+                </option>
+                <option>
+                    <a href="#">Staff</a> 
+                </option>
+                <option>
+                    <a href="#">Students</a> 
+                </option>
+            </select> 
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="form" id="form">
+        <form action="">
+            <h1>Create New Account</h1>
+            <label for="fname">First Name: </label>
+            <input type="text"> <br>
+            <label for="lname">Last Name: </label>
+            <input type="text"> <br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date"> <br>
+            <label for="pword">Create password: </label>
+            <input type="password"><br>
+            <label for="pword">Confirm password: </label>
+            <input type="password">
+        </form>
+        <button class="reg" onclick="openPopup()" >Register</button>
+    </div>
+
+
+    <div class="cop" id="popup" >
+        <h1>Registration Succesful!</h1>
+        <p> You details have been received <br>please check your email for further instructions!</p>
+        <button type="button" onclick="closePopup()"><a href="https://www.google.com">Close</a></button>
+    </div>
+</div>
+    
+
+<script>
+
+let popup = document.getElementById("popup")
+
+function openPopup(){
+    popup.classList.add("open-popup")
+}
+function closePopup(){
+    popup.classList.remove("open-popup")
+}
+
+</script>
+
+
+</body>
+</html>
